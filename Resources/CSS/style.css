@@ -152,7 +152,7 @@ html {
 @media only screen and (max-width: 1024px) {
 
   .site-container {
-    width: 100%;
+    max-width: 100%;
     margin: 0;
   }
 
@@ -174,7 +174,7 @@ html {
   }
 
   .footer {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -182,7 +182,7 @@ html {
 @media only screen and (max-width: 560px) {
 
   .site-container {
-    width: 100%;
+    max-width: 100%;
     margin: 0;
   }
 
@@ -233,6 +233,7 @@ html {
   flex-direction: column;
   align-items: center;
   height: 22rem;
+  max-width: 100%;
   padding: 3.77rem 0;
   font-size: 0.77rem;
 }
@@ -243,7 +244,7 @@ html {
 
 .information {
   flex-direction: column;
-  width: 100%;
+  max-width: 100%;
 }
 
 .item {
